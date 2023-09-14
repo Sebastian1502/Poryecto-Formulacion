@@ -1,0 +1,769 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+.boton-Inicio {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+ 
+  .boton-Inicio:hover {
+    background-color: #3f3741;
+  }
+
+  .boton-Estadisticas {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Estadisticas:hover {
+    background-color: #3f3741;
+  }
+
+  .boton-Medidas {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Medidas:hover {
+    background-color: #3f3741;
+  }
+
+  .boton-Procedimientos {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Procedimientos:hover {
+    background-color: #3f3741;
+  }
+  .boton-Historia {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Historia:hover {
+    background-color: #3f3741;
+  }
+
+  .boton-Turismo {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Turismo:hover {
+    background-color: #3f3741;
+  }
+
+  .boton-Imagenes {
+    display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: rgb(86, 226, 43);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+  
+  .boton-Imagenes:hover {
+    background-color: #3f3741;
+  }
+
+.container{
+    max-width: 3000px;
+    margin: auto;
+}
+
+.color-acento{ color:rgb(86, 226, 43); }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(86, 226, 43);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+#Usme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Usme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#Usme h1{
+    color: white;
+}
+
+#Turismo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/FINCA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#Turismo h1{
+    color: white;
+}
+
+#Alcaldia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Alcaldia.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Alcaldia h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Ruana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 10px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Ruana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Ruana h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#Trancon .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Fiesta .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Sitios .container{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+#Historia .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/Historia.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/full-stack.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/python.jpg");
+
+}
+
+#HS{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#HS .container{
+    padding: 150px 12px;
+}
+
+#HS h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#HS p{
+    display: none;
+}
+
+#HS .cart{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 100px;
+    border-radius: 15px;
+}
+
+#Gastronomia .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#Gastronomia li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#seccion-imagenes {
+    text-align: center;
+  }
+  
+  #seccion-imagenes .imagen-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #seccion-imagenes .imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #seccion-imagenes .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #seccion-imagenes .texto-imagen {
+    margin-top: 10px;
+  }
+
+  #seccion-imagenes .imagen img {
+    max-width: 300%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  #seccion-imagenes2 {
+    text-align: center;
+  }
+  
+  #seccion-imagenes2 .imagen-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #seccion-imagenes2 .imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #seccion-imagenes2 .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #seccion-imagenes2 .texto-imagen {
+    margin-top: 10px;
+  }
+
+  #seccion-imagenes2 .imagen img {
+    max-width: 300%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  #galeria .galeria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ajusta aquí el número de columnas deseado */
+    gap: 20px; /* Espacio entre las imágenes */
+  }
+  
+  #galeria .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(86, 226, 43);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #Trancon .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #Trancon .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Trancon h2{
+        margin-top: 0px;
+    }
+
+    #Trancon .img-container{
+        background-image: url("media/Trancon.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+   
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas .carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/Historia.jpg");
+        font-size: 20px;
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/Granja.jpg");
+        font-size: 20px;
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/usme1.jpg");
+        font-size: 20px;
+
+    }
+
+    #HS .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #HS p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #HS h2{
+        font-size: 4em;
+    }
+
+    #HS h3{
+        margin-top: 0;
+    }
+
+    #HS .cart{
+        padding: 50px;
+        background-size: 100% 250px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    
+
+    .cart:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/Historia.jpg");
+        font-size: 20px;
+
+    }
+
+    .cart:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/Granja.jpg");
+        font-size: 20px;
+    }
+
+    #Fiesta .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #Fiesta .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Fiesta h2{
+        margin-top: 0px;
+    }
+
+    #Fiesta .img-container{
+        background-image: url("media/Fiesta.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 700px;
+        width: 700px; 
+    }
+
+    #Sitios .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #Sitios .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Sitios h2{
+        margin-top: 0px;
+    }
+
+    #Sitios .img-container{
+        background-image: url("media/Casa.jfif");
+        background-size: cover;
+        background-position: center center;
+        height: 700px;
+        width: 700px; 
+    }
+    
+    #Gastronomia{
+        background-image: url("media/ajiaco-1458.jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #Gastronomia .container{
+        text-align: initial;
+    }
+
+    #Gastronomia ul{
+        margin-left: 100px;
+    }
+
+    #final h2{
+        font-size: 5em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+
+    #Gastronomia{
+        background-position-x: calc(100vw - 800px);
+    }
+}
